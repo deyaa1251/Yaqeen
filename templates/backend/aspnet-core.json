@@ -1,0 +1,28 @@
+{
+  "name": "aspnet-core",
+  "description": "ASP.NET Core web application",
+  "version": "1.0.0",
+  "category": "backend",
+  "tags": ["csharp", "dotnet", "aspnet", "backend"],
+  "structure": {
+    "Controllers/": {},
+    "Models/": {},
+    "Views/": {
+      "Home/": {},
+      "Shared/": {}
+    },
+    "Services/": {},
+    "Data/": {},
+    "wwwroot/": {
+      "css/": {},
+      "js/": {},
+      "lib/": {}
+    },
+    "Properties/": {},
+    "appsettings.json": "",
+    "appsettings.Development.json": "",
+    "Program.cs": "",
+    ".gitignore": "",
+    "README.md": ""
+  }
+}

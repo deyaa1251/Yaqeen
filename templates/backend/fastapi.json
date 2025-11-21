@@ -1,0 +1,51 @@
+{
+  "name": "fastapi",
+  "description": "FastAPI modern Python web framework for building APIs",
+  "version": "1.0.0",
+  "category": "backend",
+  "tags": ["python", "fastapi", "api", "backend"],
+  "structure": {
+    "app/": {
+      "api/": {
+        "v1/": {
+          "endpoints/": {},
+          "__init__.py": ""
+        },
+        "dependencies.py": "",
+        "__init__.py": ""
+      },
+      "core/": {
+        "config.py": "",
+        "security.py": "",
+        "__init__.py": ""
+      },
+      "models/": {
+        "__init__.py": ""
+      },
+      "schemas/": {
+        "__init__.py": ""
+      },
+      "services/": {
+        "__init__.py": ""
+      },
+      "db/": {
+        "base.py": "",
+        "session.py": "",
+        "__init__.py": ""
+      },
+      "main.py": "",
+      "__init__.py": ""
+    },
+    "tests/": {
+      "api/": {},
+      "conftest.py": ""
+    },
+    "alembic/": {
+      "versions/": {}
+    },
+    ".env.example": "",
+    ".gitignore": "",
+    "requirements.txt": "",
+    "README.md": ""
+  }
+}

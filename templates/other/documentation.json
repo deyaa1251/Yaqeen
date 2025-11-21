@@ -1,0 +1,36 @@
+{
+  "name": "documentation",
+  "description": "Documentation site structure with GitBook/MkDocs",
+  "version": "1.0.0",
+  "category": "other",
+  "tags": ["documentation", "docs", "gitbook"],
+  "structure": {
+    "docs/": {
+      "getting-started/": {
+        "installation.md": "",
+        "quick-start.md": ""
+      },
+      "guide/": {
+        "introduction.md": "",
+        "basic-usage.md": "",
+        "advanced.md": ""
+      },
+      "api/": {
+        "reference.md": ""
+      },
+      "contributing/": {
+        "guidelines.md": "",
+        "development.md": ""
+      },
+      "index.md": ""
+    },
+    "assets/": {
+      "images/": {},
+      "css/": {}
+    },
+    ".gitignore": "",
+    "README.md": "",
+    "SUMMARY.md": "",
+    "book.json": ""
+  }
+}

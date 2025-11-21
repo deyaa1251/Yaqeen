@@ -1,0 +1,22 @@
+{
+  "name": "cpp-project",
+  "description": "Modern C++ project with CMake build system",
+  "version": "1.0.0",
+  "category": "languages",
+  "tags": ["cpp", "cmake", "library"],
+  "structure": {
+    "include/": {
+      "project/": {}
+    },
+    "src/": {
+      "main.cpp": ""
+    },
+    "tests/": {},
+    "docs/": {},
+    "cmake/": {},
+    "CMakeLists.txt": "",
+    ".gitignore": "",
+    "README.md": "",
+    "LICENSE": ""
+  }
+}

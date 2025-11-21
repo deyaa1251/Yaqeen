@@ -1,0 +1,62 @@
+{
+  "name": "laravel",
+  "description": "Laravel PHP framework with MVC architecture",
+  "version": "1.0.0",
+  "category": "backend",
+  "tags": ["php", "laravel", "mvc", "backend"],
+  "structure": {
+    "app/": {
+      "Console/": {
+        "Commands/": {},
+        "Kernel.php": ""
+      },
+      "Http/": {
+        "Controllers/": {
+          "Controller.php": ""
+        },
+        "Middleware/": {},
+        "Requests/": {},
+        "Kernel.php": ""
+      },
+      "Models/": {
+        "User.php": ""
+      },
+      "Providers/": {},
+      "Services/": {},
+      "Repositories/": {}
+    },
+    "config/": {},
+    "database/": {
+      "migrations/": {},
+      "seeders/": {},
+      "factories/": {}
+    },
+    "public/": {
+      "index.php": ""
+    },
+    "resources/": {
+      "views/": {},
+      "js/": {},
+      "css/": {}
+    },
+    "routes/": {
+      "web.php": "",
+      "api.php": "",
+      "console.php": ""
+    },
+    "storage/": {
+      "app/": {},
+      "framework/": {},
+      "logs/": {}
+    },
+    "tests/": {
+      "Feature/": {},
+      "Unit/": {}
+    },
+    ".env.example": "",
+    ".gitignore": "",
+    "composer.json": "",
+    "artisan": "",
+    "README.md": ""
+  }
+}

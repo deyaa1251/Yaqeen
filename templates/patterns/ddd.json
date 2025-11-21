@@ -1,0 +1,37 @@
+{
+  "name": "ddd",
+  "description": "Domain-Driven Design architecture pattern",
+  "version": "1.0.0",
+  "category": "patterns",
+  "tags": ["architecture", "ddd", "domain-driven-design"],
+  "structure": {
+    "src/": {
+      "domain/": {
+        "aggregates/": {},
+        "entities/": {},
+        "value-objects/": {},
+        "events/": {},
+        "repositories/": {},
+        "services/": {}
+      },
+      "application/": {
+        "commands/": {},
+        "queries/": {},
+        "handlers/": {},
+        "services/": {}
+      },
+      "infrastructure/": {
+        "persistence/": {},
+        "messaging/": {},
+        "external-services/": {}
+      },
+      "presentation/": {
+        "controllers/": {},
+        "dto/": {}
+      }
+    },
+    "tests/": {},
+    ".gitignore": "",
+    "README.md": ""
+  }
+}

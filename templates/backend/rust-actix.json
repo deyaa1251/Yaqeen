@@ -1,0 +1,38 @@
+{
+  "name": "rust-actix",
+  "description": "Rust web application using Actix-web framework",
+  "version": "1.0.0",
+  "category": "backend",
+  "tags": ["rust", "actix", "backend", "api"],
+  "structure": {
+    "src/": {
+      "handlers/": {
+        "mod.rs": ""
+      },
+      "models/": {
+        "mod.rs": ""
+      },
+      "services/": {
+        "mod.rs": ""
+      },
+      "middleware/": {
+        "mod.rs": ""
+      },
+      "config/": {
+        "mod.rs": ""
+      },
+      "db/": {
+        "mod.rs": ""
+      },
+      "main.rs": "",
+      "lib.rs": ""
+    },
+    "tests/": {},
+    "migrations/": {},
+    "Cargo.toml": "",
+    "Cargo.lock": "",
+    ".env.example": "",
+    ".gitignore": "",
+    "README.md": ""
+  }
+}

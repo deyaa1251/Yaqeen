@@ -1,0 +1,25 @@
+{
+  "name": "go-project",
+  "description": "Go project with standard layout",
+  "version": "1.0.0",
+  "category": "languages",
+  "tags": ["go", "golang", "library"],
+  "structure": {
+    "cmd/": {
+      "app/": {
+        "main.go": ""
+      }
+    },
+    "pkg/": {},
+    "internal/": {},
+    "api/": {},
+    "test/": {},
+    "docs/": {},
+    "go.mod": "",
+    "go.sum": "",
+    "Makefile": "",
+    ".gitignore": "",
+    "README.md": "",
+    "LICENSE": ""
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "python-project",
+  "description": "Python package project with modern tooling",
+  "version": "1.0.0",
+  "category": "languages",
+  "tags": ["python", "package", "library"],
+  "structure": {
+    "src/": {
+      "project_name/": {
+        "__init__.py": "",
+        "core/": {
+          "__init__.py": ""
+        },
+        "utils/": {
+          "__init__.py": ""
+        }
+      }
+    },
+    "tests/": {
+      "__init__.py": "",
+      "test_core.py": ""
+    },
+    "docs/": {},
+    ".gitignore": "",
+    "setup.py": "",
+    "pyproject.toml": "",
+    "requirements.txt": "",
+    "requirements-dev.txt": "",
+    "README.md": "",
+    "LICENSE": ""
+  }
+}

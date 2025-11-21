@@ -1,0 +1,35 @@
+{
+  "name": "express",
+  "description": "Express.js Node.js web framework with TypeScript",
+  "version": "1.0.0",
+  "category": "backend",
+  "tags": ["nodejs", "express", "typescript", "backend"],
+  "structure": {
+    "src/": {
+      "controllers/": {},
+      "middleware/": {},
+      "models/": {},
+      "routes/": {
+        "index.ts": ""
+      },
+      "services/": {},
+      "utils/": {},
+      "types/": {},
+      "config/": {
+        "database.ts": "",
+        "env.ts": ""
+      },
+      "app.ts": "",
+      "server.ts": ""
+    },
+    "tests/": {
+      "unit/": {},
+      "integration/": {}
+    },
+    ".env.example": "",
+    ".gitignore": "",
+    "package.json": "",
+    "tsconfig.json": "",
+    "README.md": ""
+  }
+}

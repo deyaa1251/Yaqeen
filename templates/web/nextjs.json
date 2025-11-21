@@ -1,0 +1,30 @@
+{
+  "name": "nextjs",
+  "description": "Next.js application with App Router and TypeScript",
+  "version": "1.0.0",
+  "category": "web",
+  "tags": ["nextjs", "react", "typescript", "ssr"],
+  "structure": {
+    "app/": {
+      "api/": {},
+      "layout.tsx": "",
+      "page.tsx": "",
+      "globals.css": ""
+    },
+    "components/": {
+      "ui/": {},
+      "shared/": {}
+    },
+    "lib/": {},
+    "public/": {
+      "images/": {}
+    },
+    "types/": {},
+    "hooks/": {},
+    ".gitignore": "",
+    "package.json": "",
+    "tsconfig.json": "",
+    "next.config.js": "",
+    "README.md": ""
+  }
+}

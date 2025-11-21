@@ -1,0 +1,30 @@
+{
+  "title": "Yaqeen Documentation",
+  "description": "Comprehensive documentation for Yaqeen - a lightning-fast project structure generator",
+  "author": "Yaqeen Team",
+  "language": "en",
+  "gitbook": ">=3.0.0",
+  "root": ".",
+
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+
+  "plugins": [],
+
+  "pluginsConfig": {
+    "fontsettings": {
+      "theme": "white",
+      "family": "sans",
+      "size": 2
+    }
+  },
+
+  "variables": {
+    "version": "1.0.0",
+    "project_name": "Yaqeen",
+    "github_url": "https://github.com/yourusername/yaqeen",
+    "website_url": "https://yaqeen.dev"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "flutter",
+  "description": "Flutter cross-platform mobile application",
+  "version": "1.0.0",
+  "category": "mobile",
+  "tags": ["flutter", "dart", "mobile", "ios", "android"],
+  "structure": {
+    "lib/": {
+      "core/": {
+        "constants/": {},
+        "theme/": {},
+        "utils/": {}
+      },
+      "features/": {
+        "home/": {
+          "presentation/": {},
+          "data/": {},
+          "domain/": {}
+        }
+      },
+      "shared/": {
+        "widgets/": {},
+        "services/": {}
+      },
+      "main.dart": "",
+      "app.dart": ""
+    },
+    "test/": {},
+    "assets/": {
+      "images/": {},
+      "fonts/": {}
+    },
+    "android/": {},
+    "ios/": {},
+    ".gitignore": "",
+    "pubspec.yaml": "",
+    "analysis_options.yaml": "",
+    "README.md": ""
+  }
+}

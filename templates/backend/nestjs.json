@@ -1,0 +1,35 @@
+{
+  "name": "nestjs",
+  "description": "NestJS progressive Node.js framework with TypeScript",
+  "version": "1.0.0",
+  "category": "backend",
+  "tags": ["nodejs", "nestjs", "typescript", "backend"],
+  "structure": {
+    "src/": {
+      "modules/": {
+        "app/": {
+          "app.module.ts": "",
+          "app.controller.ts": "",
+          "app.service.ts": ""
+        }
+      },
+      "common/": {
+        "decorators/": {},
+        "guards/": {},
+        "interceptors/": {},
+        "filters/": {},
+        "pipes/": {}
+      },
+      "config/": {},
+      "database/": {},
+      "main.ts": ""
+    },
+    "test/": {},
+    ".env.example": "",
+    ".gitignore": "",
+    "package.json": "",
+    "tsconfig.json": "",
+    "nest-cli.json": "",
+    "README.md": ""
+  }
+}

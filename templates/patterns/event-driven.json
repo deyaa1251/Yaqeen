@@ -1,0 +1,31 @@
+{
+  "name": "event-driven",
+  "description": "Event-Driven Architecture pattern",
+  "version": "1.0.0",
+  "category": "patterns",
+  "tags": ["architecture", "event-driven", "messaging"],
+  "structure": {
+    "src/": {
+      "events/": {
+        "handlers/": {},
+        "publishers/": {},
+        "subscribers/": {}
+      },
+      "aggregates/": {},
+      "commands/": {
+        "handlers/": {}
+      },
+      "queries/": {
+        "handlers/": {}
+      },
+      "projections/": {},
+      "infrastructure/": {
+        "eventstore/": {},
+        "messaging/": {}
+      }
+    },
+    "tests/": {},
+    ".gitignore": "",
+    "README.md": ""
+  }
+}

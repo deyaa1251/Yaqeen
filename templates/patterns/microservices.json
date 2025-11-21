@@ -1,0 +1,35 @@
+{
+  "name": "microservices",
+  "description": "Microservices architecture with multiple services",
+  "version": "1.0.0",
+  "category": "patterns",
+  "tags": ["architecture", "microservices", "distributed"],
+  "structure": {
+    "services/": {
+      "api-gateway/": {
+        "src/": {},
+        "Dockerfile": ""
+      },
+      "auth-service/": {
+        "src/": {},
+        "Dockerfile": ""
+      },
+      "user-service/": {
+        "src/": {},
+        "Dockerfile": ""
+      }
+    },
+    "shared/": {
+      "proto/": {},
+      "types/": {},
+      "utils/": {}
+    },
+    "infrastructure/": {
+      "kubernetes/": {},
+      "terraform/": {}
+    },
+    "docker-compose.yml": "",
+    ".gitignore": "",
+    "README.md": ""
+  }
+}

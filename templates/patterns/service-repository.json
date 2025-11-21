@@ -1,0 +1,29 @@
+{
+  "name": "service-repository",
+  "description": "Service-Repository pattern for separation of business logic",
+  "version": "1.0.0",
+  "category": "patterns",
+  "tags": ["architecture", "service-repository", "pattern"],
+  "structure": {
+    "src/": {
+      "models/": {},
+      "repositories/": {
+        "interfaces/": {},
+        "implementations/": {}
+      },
+      "services/": {
+        "interfaces/": {},
+        "implementations/": {}
+      },
+      "controllers/": {},
+      "dto/": {},
+      "mappers/": {}
+    },
+    "tests/": {
+      "repositories/": {},
+      "services/": {}
+    },
+    ".gitignore": "",
+    "README.md": ""
+  }
+}

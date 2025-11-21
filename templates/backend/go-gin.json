@@ -1,0 +1,34 @@
+{
+  "name": "go-gin",
+  "description": "Go web application using Gin framework",
+  "version": "1.0.0",
+  "category": "backend",
+  "tags": ["go", "gin", "backend", "api"],
+  "structure": {
+    "cmd/": {
+      "api/": {
+        "main.go": ""
+      }
+    },
+    "internal/": {
+      "controllers/": {},
+      "models/": {},
+      "services/": {},
+      "middleware/": {},
+      "repository/": {},
+      "config/": {
+        "config.go": ""
+      }
+    },
+    "pkg/": {
+      "utils/": {}
+    },
+    "migrations/": {},
+    ".env.example": "",
+    ".gitignore": "",
+    "go.mod": "",
+    "go.sum": "",
+    "Makefile": "",
+    "README.md": ""
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "rails",
+  "description": "Ruby on Rails web application",
+  "version": "1.0.0",
+  "category": "backend",
+  "tags": ["ruby", "rails", "mvc", "backend"],
+  "structure": {
+    "app/": {
+      "controllers/": {
+        "application_controller.rb": ""
+      },
+      "models/": {},
+      "views/": {
+        "layouts/": {}
+      },
+      "helpers/": {},
+      "mailers/": {},
+      "jobs/": {},
+      "channels/": {},
+      "assets/": {
+        "stylesheets/": {},
+        "javascripts/": {},
+        "images/": {}
+      }
+    },
+    "config/": {
+      "environments/": {},
+      "initializers/": {},
+      "routes.rb": "",
+      "database.yml": ""
+    },
+    "db/": {
+      "migrate/": {},
+      "seeds.rb": ""
+    },
+    "lib/": {},
+    "test/": {},
+    "public/": {},
+    ".gitignore": "",
+    "Gemfile": "",
+    "README.md": ""
+  }
+}

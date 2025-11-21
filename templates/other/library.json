@@ -1,0 +1,30 @@
+{
+  "name": "library",
+  "description": "Generic library/package project structure",
+  "version": "1.0.0",
+  "category": "other",
+  "tags": ["library", "package", "sdk"],
+  "structure": {
+    "src/": {
+      "core/": {},
+      "utils/": {},
+      "types/": {}
+    },
+    "tests/": {
+      "unit/": {},
+      "integration/": {}
+    },
+    "examples/": {},
+    "docs/": {
+      "api/": {},
+      "guides/": {}
+    },
+    "benchmarks/": {},
+    ".gitignore": "",
+    "package.json": "",
+    "README.md": "",
+    "LICENSE": "",
+    "CHANGELOG.md": "",
+    "CONTRIBUTING.md": ""
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "react-native",
+  "description": "React Native mobile application with TypeScript",
+  "version": "1.0.0",
+  "category": "mobile",
+  "tags": ["react-native", "mobile", "typescript", "ios", "android"],
+  "structure": {
+    "src/": {
+      "components/": {
+        "common/": {},
+        "screens/": {}
+      },
+      "navigation/": {
+        "AppNavigator.tsx": ""
+      },
+      "screens/": {
+        "Home/": {
+          "HomeScreen.tsx": ""
+        }
+      },
+      "services/": {},
+      "hooks/": {},
+      "utils/": {},
+      "types/": {},
+      "theme/": {
+        "colors.ts": "",
+        "typography.ts": ""
+      },
+      "App.tsx": ""
+    },
+    "assets/": {
+      "images/": {},
+      "fonts/": {}
+    },
+    "android/": {},
+    "ios/": {},
+    "__tests__/": {},
+    ".gitignore": "",
+    "package.json": "",
+    "tsconfig.json": "",
+    "babel.config.js": "",
+    "metro.config.js": "",
+    "README.md": ""
+  }
+}

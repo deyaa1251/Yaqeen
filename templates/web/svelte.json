@@ -1,0 +1,30 @@
+{
+  "name": "svelte",
+  "description": "Svelte application with SvelteKit and TypeScript",
+  "version": "1.0.0",
+  "category": "web",
+  "tags": ["svelte", "sveltekit", "typescript", "frontend"],
+  "structure": {
+    "src/": {
+      "routes/": {
+        "+page.svelte": "",
+        "+layout.svelte": ""
+      },
+      "lib/": {
+        "components/": {},
+        "stores/": {},
+        "utils/": {}
+      },
+      "app.html": "",
+      "app.css": ""
+    },
+    "static/": {},
+    "tests/": {},
+    ".gitignore": "",
+    "package.json": "",
+    "svelte.config.js": "",
+    "tsconfig.json": "",
+    "vite.config.ts": "",
+    "README.md": ""
+  }
+}

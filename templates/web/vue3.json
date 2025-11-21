@@ -1,0 +1,37 @@
+{
+  "name": "vue3",
+  "description": "Vue 3 application with Composition API and TypeScript",
+  "version": "1.0.0",
+  "category": "web",
+  "tags": ["vue", "vue3", "typescript", "frontend"],
+  "structure": {
+    "src/": {
+      "assets/": {},
+      "components/": {
+        "common/": {},
+        "layout/": {}
+      },
+      "composables/": {},
+      "router/": {
+        "index.ts": ""
+      },
+      "stores/": {},
+      "views/": {
+        "Home.vue": ""
+      },
+      "types/": {},
+      "App.vue": "",
+      "main.ts": ""
+    },
+    "public/": {},
+    "tests/": {
+      "unit/": {},
+      "e2e/": {}
+    },
+    ".gitignore": "",
+    "package.json": "",
+    "tsconfig.json": "",
+    "vite.config.ts": "",
+    "README.md": ""
+  }
+}

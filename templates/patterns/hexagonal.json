@@ -1,0 +1,37 @@
+{
+  "name": "hexagonal",
+  "description": "Hexagonal Architecture (Ports and Adapters) pattern",
+  "version": "1.0.0",
+  "category": "patterns",
+  "tags": ["architecture", "hexagonal", "ports-and-adapters"],
+  "structure": {
+    "src/": {
+      "core/": {
+        "domain/": {
+          "models/": {},
+          "services/": {}
+        },
+        "ports/": {
+          "input/": {},
+          "output/": {}
+        }
+      },
+      "adapters/": {
+        "input/": {
+          "http/": {},
+          "cli/": {}
+        },
+        "output/": {
+          "persistence/": {},
+          "messaging/": {}
+        }
+      },
+      "application/": {
+        "usecases/": {}
+      }
+    },
+    "tests/": {},
+    ".gitignore": "",
+    "README.md": ""
+  }
+}

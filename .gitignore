@@ -1,0 +1,57 @@
+# Build directories
+build/
+cmake-build-*/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Makefile
+
+# Binary outputs
+yaqeen
+*.exe
+*.out
+*.app
+*.o
+*.a
+*.so
+*.dylib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test outputs
+Testing/
+*.gcov
+*.gcda
+*.gcno
+
+# Package managers
+node_modules/
+_deps/
+
+# Generated documentation
+docs/_build/
+docs/html/
+docs/latex/
+_book/
+docs/_book/
+
+# Environment files
+.env
+.env.local

@@ -1,0 +1,22 @@
+{
+  "name": "mvvm",
+  "description": "Model-View-ViewModel architecture pattern",
+  "version": "1.0.0",
+  "category": "patterns",
+  "tags": ["architecture", "mvvm", "pattern"],
+  "structure": {
+    "src/": {
+      "models/": {},
+      "views/": {},
+      "viewmodels/": {},
+      "services/": {},
+      "commands/": {},
+      "converters/": {},
+      "behaviors/": {}
+    },
+    "resources/": {},
+    "tests/": {},
+    ".gitignore": "",
+    "README.md": ""
+  }
+}

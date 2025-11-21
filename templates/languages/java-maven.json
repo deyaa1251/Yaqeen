@@ -1,0 +1,34 @@
+{
+  "name": "java-maven",
+  "description": "Java project with Maven build system",
+  "version": "1.0.0",
+  "category": "languages",
+  "tags": ["java", "maven", "library"],
+  "structure": {
+    "src/": {
+      "main/": {
+        "java/": {
+          "com/": {
+            "example/": {
+              "Main.java": ""
+            }
+          }
+        },
+        "resources/": {}
+      },
+      "test/": {
+        "java/": {
+          "com/": {
+            "example/": {}
+          }
+        },
+        "resources/": {}
+      }
+    },
+    "target/": {},
+    "pom.xml": "",
+    ".gitignore": "",
+    "README.md": "",
+    "LICENSE": ""
+  }
+}

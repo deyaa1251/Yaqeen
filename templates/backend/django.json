@@ -1,0 +1,55 @@
+{
+  "name": "django",
+  "description": "Django Python web framework with batteries included",
+  "version": "1.0.0",
+  "category": "backend",
+  "tags": ["python", "django", "backend", "web"],
+  "structure": {
+    "app/": {
+      "models/": {
+        "__init__.py": ""
+      },
+      "views/": {
+        "__init__.py": ""
+      },
+      "serializers/": {
+        "__init__.py": ""
+      },
+      "services/": {
+        "__init__.py": ""
+      },
+      "migrations/": {
+        "__init__.py": ""
+      },
+      "admin.py": "",
+      "apps.py": "",
+      "urls.py": "",
+      "__init__.py": ""
+    },
+    "config/": {
+      "settings/": {
+        "base.py": "",
+        "development.py": "",
+        "production.py": "",
+        "__init__.py": ""
+      },
+      "urls.py": "",
+      "wsgi.py": "",
+      "asgi.py": "",
+      "__init__.py": ""
+    },
+    "static/": {},
+    "media/": {},
+    "templates/": {},
+    "tests/": {},
+    "requirements/": {
+      "base.txt": "",
+      "development.txt": "",
+      "production.txt": ""
+    },
+    ".env.example": "",
+    ".gitignore": "",
+    "manage.py": "",
+    "README.md": ""
+  }
+}

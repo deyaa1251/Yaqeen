@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "tool",
+  "main": "index.js",
+  "authors": {
+    "name": "deyaa",
+    "email": "Deyaanaser88@gmail.com"
+  },
+  "repository": "no/test",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}

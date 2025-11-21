@@ -1,0 +1,103 @@
+{
+  "title": "Yaqeen Documentation",
+  "description": "Comprehensive documentation for Yaqeen - a lightning-fast project structure generator",
+  "author": "Yaqeen Team",
+  "language": "en",
+  "gitbook": ">=3.0.0",
+  "root": ".",
+
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+
+  "plugins": [
+    "edit-link",
+    "github",
+    "search",
+    "sharing",
+    "fontsettings",
+    "livereload",
+    "-lunr",
+    "search-plus",
+    "code",
+    "prism",
+    "-highlight",
+    "copy-code-button",
+    "expandable-chapters-small",
+    "anchors",
+    "github-buttons",
+    "page-toc-button",
+    "back-to-top-button",
+    "emphasize",
+    "splitter"
+  ],
+
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/yourusername/yaqeen/edit/main/docs",
+      "label": "Edit This Page"
+    },
+    "github": {
+      "url": "https://github.com/yourusername/yaqeen"
+    },
+    "sharing": {
+      "facebook": false,
+      "twitter": true,
+      "google": false,
+      "all": ["twitter", "linkedin"]
+    },
+    "fontsettings": {
+      "theme": "white",
+      "family": "sans",
+      "size": 2
+    },
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-tomorrow.css"
+      ],
+      "lang": {
+        "flow": "typescript"
+      }
+    },
+    "github-buttons": {
+      "buttons": [
+        {
+          "user": "yourusername",
+          "repo": "yaqeen",
+          "type": "star",
+          "size": "small",
+          "count": true
+        }
+      ]
+    },
+    "page-toc-button": {
+      "maxTocDepth": 3,
+      "minTocSize": 2
+    }
+  },
+
+  "variables": {
+    "version": "1.0.0",
+    "project_name": "Yaqeen",
+    "github_url": "https://github.com/yourusername/yaqeen",
+    "website_url": "https://yaqeen.dev"
+  },
+
+  "links": {
+    "sidebar": {
+      "🏠 Home": "https://yaqeen.dev",
+      "📦 Releases": "https://github.com/yourusername/yaqeen/releases",
+      "🐛 Issues": "https://github.com/yourusername/yaqeen/issues",
+      "💬 Discussions": "https://github.com/yourusername/yaqeen/discussions"
+    }
+  },
+
+  "styles": {
+    "website": "styles/website.css",
+    "ebook": "styles/ebook.css",
+    "pdf": "styles/pdf.css",
+    "mobi": "styles/mobi.css",
+    "epub": "styles/epub.css"
+  }
+}

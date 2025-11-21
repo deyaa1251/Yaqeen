@@ -1,0 +1,28 @@
+{
+  "name": "mvc",
+  "description": "Model-View-Controller architecture pattern",
+  "version": "1.0.0",
+  "category": "patterns",
+  "tags": ["architecture", "mvc", "pattern"],
+  "structure": {
+    "src/": {
+      "models/": {},
+      "views/": {},
+      "controllers/": {},
+      "services/": {},
+      "middleware/": {},
+      "config/": {},
+      "routes/": {}
+    },
+    "public/": {
+      "assets/": {
+        "css/": {},
+        "js/": {},
+        "images/": {}
+      }
+    },
+    "tests/": {},
+    ".gitignore": "",
+    "README.md": ""
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "monorepo",
+  "description": "Monorepo structure with multiple packages",
+  "version": "1.0.0",
+  "category": "other",
+  "tags": ["monorepo", "workspace", "turborepo"],
+  "structure": {
+    "apps/": {
+      "web/": {
+        "src/": {},
+        "package.json": ""
+      },
+      "api/": {
+        "src/": {},
+        "package.json": ""
+      }
+    },
+    "packages/": {
+      "ui/": {
+        "src/": {},
+        "package.json": ""
+      },
+      "config/": {
+        "package.json": ""
+      },
+      "shared/": {
+        "src/": {},
+        "package.json": ""
+      }
+    },
+    "package.json": "",
+    "turbo.json": "",
+    ".gitignore": "",
+    "README.md": ""
+  }
+}

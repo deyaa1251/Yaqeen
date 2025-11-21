@@ -1,0 +1,26 @@
+{
+  "name": "astro",
+  "description": "Astro static site with TypeScript",
+  "version": "1.0.0",
+  "category": "web",
+  "tags": ["astro", "typescript", "static-site"],
+  "structure": {
+    "src/": {
+      "components/": {},
+      "layouts/": {
+        "Layout.astro": ""
+      },
+      "pages/": {
+        "index.astro": ""
+      },
+      "styles/": {},
+      "content/": {}
+    },
+    "public/": {},
+    ".gitignore": "",
+    "package.json": "",
+    "tsconfig.json": "",
+    "astro.config.mjs": "",
+    "README.md": ""
+  }
+}

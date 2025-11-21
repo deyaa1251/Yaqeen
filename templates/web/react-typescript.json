@@ -1,0 +1,41 @@
+{
+  "name": "react-typescript",
+  "description": "React application with TypeScript, modern tooling, and best practices",
+  "version": "1.0.0",
+  "category": "web",
+  "tags": ["react", "typescript", "frontend", "spa"],
+  "author": "Yaqeen Team",
+  "structure": {
+    "src/": {
+      "components/": {
+        "common/": {},
+        "layout/": {}
+      },
+      "hooks/": {},
+      "services/": {},
+      "utils/": {},
+      "types/": {},
+      "pages/": {
+        "Home/": {
+          "Home.tsx": "",
+          "Home.module.css": ""
+        }
+      },
+      "App.tsx": "",
+      "App.css": "",
+      "main.tsx": "",
+      "vite-env.d.ts": ""
+    },
+    "public/": {},
+    "tests/": {
+      "unit/": {},
+      "integration/": {}
+    },
+    ".gitignore": "",
+    "package.json": "",
+    "tsconfig.json": "",
+    "tsconfig.node.json": "",
+    "vite.config.ts": "",
+    "README.md": ""
+  }
+}

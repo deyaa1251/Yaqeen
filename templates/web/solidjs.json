@@ -1,0 +1,24 @@
+{
+  "name": "solidjs",
+  "description": "Solid.js application with TypeScript and Vite",
+  "version": "1.0.0",
+  "category": "web",
+  "tags": ["solidjs", "typescript", "frontend"],
+  "structure": {
+    "src/": {
+      "components/": {},
+      "pages/": {},
+      "services/": {},
+      "types/": {},
+      "App.tsx": "",
+      "index.tsx": "",
+      "index.css": ""
+    },
+    "public/": {},
+    ".gitignore": "",
+    "package.json": "",
+    "tsconfig.json": "",
+    "vite.config.ts": "",
+    "README.md": ""
+  }
+}

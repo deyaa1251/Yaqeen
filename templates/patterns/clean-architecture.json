@@ -1,0 +1,37 @@
+{
+  "name": "clean-architecture",
+  "description": "Clean Architecture pattern with clear separation of concerns",
+  "version": "1.0.0",
+  "category": "patterns",
+  "tags": ["architecture", "clean-architecture", "pattern"],
+  "structure": {
+    "src/": {
+      "domain/": {
+        "entities/": {},
+        "repositories/": {},
+        "usecases/": {}
+      },
+      "application/": {
+        "interfaces/": {},
+        "services/": {},
+        "dtos/": {}
+      },
+      "infrastructure/": {
+        "database/": {},
+        "external/": {},
+        "repositories/": {}
+      },
+      "presentation/": {
+        "controllers/": {},
+        "views/": {},
+        "middleware/": {}
+      }
+    },
+    "tests/": {
+      "unit/": {},
+      "integration/": {}
+    },
+    ".gitignore": "",
+    "README.md": ""
+  }
+}

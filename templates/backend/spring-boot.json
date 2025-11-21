@@ -1,0 +1,45 @@
+{
+  "name": "spring-boot",
+  "description": "Spring Boot Java application",
+  "version": "1.0.0",
+  "category": "backend",
+  "tags": ["java", "spring-boot", "backend"],
+  "structure": {
+    "src/": {
+      "main/": {
+        "java/": {
+          "com/": {
+            "example/": {
+              "demo/": {
+                "controller/": {},
+                "service/": {},
+                "repository/": {},
+                "model/": {},
+                "config/": {},
+                "DemoApplication.java": ""
+              }
+            }
+          }
+        },
+        "resources/": {
+          "application.properties": "",
+          "static/": {},
+          "templates/": {}
+        }
+      },
+      "test/": {
+        "java/": {
+          "com/": {
+            "example/": {
+              "demo/": {}
+            }
+          }
+        }
+      }
+    },
+    "target/": {},
+    "pom.xml": "",
+    ".gitignore": "",
+    "README.md": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "rust-project",
+  "description": "Rust project with Cargo build system",
+  "version": "1.0.0",
+  "category": "languages",
+  "tags": ["rust", "cargo", "library"],
+  "structure": {
+    "src/": {
+      "lib.rs": "",
+      "main.rs": ""
+    },
+    "tests/": {},
+    "benches/": {},
+    "examples/": {},
+    "Cargo.toml": "",
+    "Cargo.lock": "",
+    ".gitignore": "",
+    "README.md": "",
+    "LICENSE": ""
+  }
+}
