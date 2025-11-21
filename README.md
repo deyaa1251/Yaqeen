@@ -23,7 +23,7 @@
 </div>
 
 ---
-
+***PLEASE VISIT https://deyaa1251.github.io/Yaqeen/development/architecture.html for detailed documentation on the tool****
 ## What is Yaqeen?
 
 **Yaqeen** (يقين - Arabic for "certainty") is a blazingly fast, modern CLI tool that generates project structures from markdown files or pre-built templates. Stop wasting time setting up boilerplate and focus on what matters: writing code.
