@@ -18,7 +18,7 @@
 [![C++17](https://img.shields.io/badge/C++-17-blue.svg)](https://isocpp.org/)
 [![CMake](https://img.shields.io/badge/CMake-3.14+-blue.svg)](https://cmake.org/)
 
-[Features](#features) • [Installation](#installation) • [Quick Start](#quick-start) • [Documentation](#documentation) • [Contributing](#contributing)
+[Features](#features) • [Installation](#installation) • [Quick Start](#quick-start) • [Documentation](https://deyaa1251.github.io/Yaqeen/development/architecture.html) • [Contributing](#contributing)
 
 </div>
 
